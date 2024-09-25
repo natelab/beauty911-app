@@ -12,16 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Beauty911_App"
         tools:targetApi="31">
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Beauty911_App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Sign-Up Activity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
