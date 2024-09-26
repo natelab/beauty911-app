@@ -6,24 +6,24 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/loginTitle"
+        android:id="@+id/adminLoginTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Login"
+        android:text="Admin Login"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:paddingBottom="20dp"/>
 
     <EditText
-        android:id="@+id/emailInput"
+        android:id="@+id/adminEmailLoginInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="Admin Email"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/passwordInput"
+        android:id="@+id/adminPasswordLoginInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -31,11 +31,10 @@
         android:layout_marginTop="10dp"/>
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/adminLoginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:backgroundTint="#CA386B"
         android:layout_marginTop="20dp" />
-
 </LinearLayout>

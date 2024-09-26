@@ -6,62 +6,57 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/signupTitle"
+        android:id="@+id/registerAdminTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register New Customer"
+        android:text="Register New Admin"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:paddingBottom="20dp" />
 
     <EditText
-        android:id="@+id/firstNameInput"
+        android:id="@+id/adminFirstNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="First Name"
-        android:layout_marginTop="10dp"/>
+        android:hint="First Name" />
 
     <EditText
-        android:id="@+id/lastNameInput"
+        android:id="@+id/adminLastNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp" />
 
     <EditText
-        android:id="@+id/signupEmailInput"
+        android:id="@+id/adminEmailInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:hint="Admin Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp" />
 
     <EditText
-        android:id="@+id/signupPhoneInput"
+        android:id="@+id/adminPhoneInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Phone"
-        android:inputType="phone"/>
+        android:inputType="phone"
+        android:layout_marginTop="10dp" />
 
     <EditText
-        android:id="@+id/signupAddressInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Home Address"
-        android:inputType="textPostalAddress"/>
-
-    <EditText
-        android:id="@+id/signupPasswordInput"
+        android:id="@+id/adminPasswordInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp" />
 
     <Button
-        android:id="@+id/signupBtn"
+        android:id="@+id/registerAdminBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="Register Admin"
         android:backgroundTint="#CA386B"
         android:layout_marginTop="20dp" />
 </LinearLayout>
